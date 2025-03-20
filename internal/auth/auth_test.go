@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/stretchr/testify/assert"
 	"github.com/bootdotdev/learn-cicd-starter/internal/auth"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestGetAPIKey_ValidKey(t *testing.T) {
